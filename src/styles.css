@@ -21,16 +21,17 @@ a {
 }
 
 input[type="search"] {
-  padding: 20px;
+  padding: 21px 30px 20px 21px;
   border: none;
   border-radius: 10px;
   font-size: 18px;
   width: 70%;
   background-color: rgba(224, 222, 213, 0.4);
+  box-shadow: 3px 3px 10px rgba(224, 222, 213, 0.9);
 }
 
 input[type="submit"] {
-  background-image: url("Day_to_night.jpeg");
+  background-image: url("Day_to_night_1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +58,7 @@ h1 {
 
 .time,
 .sky-conditions {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
   opacity: 0.9;
 }

@@ -12,12 +12,18 @@
     />
 
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-app">
       <header>
         <form id="search-form">
-          <input type="search" placeholder="Enter a city..." required />
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            id="search-input"
+          />
 
           <input type="submit" value="Search" />
         </form>
@@ -26,7 +32,7 @@
       <main>
         <div class="weather-info">
           <div>
-            <h1>Kadoma</h1>
+            <h1 id="city-name">Kadoma</h1>
             <p>
               <span class="time"> Tuesday 11:34</span>
               <span class="sky-conditions">Mostly cloudy</span>
@@ -51,5 +57,6 @@
         </p>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
