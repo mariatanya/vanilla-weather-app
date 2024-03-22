@@ -18,6 +18,14 @@ function showWeather(response) {
   let timeElement = document.querySelector("#time");
   let now = new Date(response.data.time * 1000);
   timeElement.innerHTML = displayTime(now);
+
+  let icon = `<img
+                src="${response.data.condition.icon_url}"
+                alt=""
+                class="icon"
+              />`;
+  let iconElement = document.querySelector("#icon");
+  iconElement.innerHTML = icon;
 }
 
 function displayTime(now) {

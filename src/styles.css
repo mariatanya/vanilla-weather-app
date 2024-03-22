@@ -21,7 +21,7 @@ a {
 }
 
 input[type="search"] {
-  padding: 21px 30px 20px 21px;
+  padding: 21px 35px 20px 21px;
   border: none;
   border-radius: 10px;
   font-size: 18px;
@@ -37,7 +37,7 @@ input[type="submit"] {
   background-size: cover;
   border: none;
   color: #fff;
-  padding: 22px 40px;
+  padding: 22px 45px;
   border-radius: 10px;
   font-size: 18px;
 }
@@ -52,7 +52,7 @@ main {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
 }
 
@@ -83,13 +83,14 @@ h1 {
 
 .temperature .value {
   font-size: 90px;
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 7px;
+  line-height: 90px;
 }
 
 .temperature .icon {
-  font-size: 45px;
-  margin-top: 30px;
+  width: 90px;
+  height: 90px;
+  margin-top: 7px;
 }
 
 .temperature .unit {
