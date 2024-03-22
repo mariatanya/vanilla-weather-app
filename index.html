@@ -7,14 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Telex&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <div class="weather-app">
-      <header class="search-form">
-        <form>
+      <header>
+        <form id="search-form">
           <input type="search" placeholder="Enter a city..." required />
 
           <input type="submit" value="Search" />
@@ -23,26 +25,30 @@
 
       <main>
         <div class="weather-info">
-          <h1>Kadoma</h1>
-          <p>
-            <span class="time"> Tuesday 11:34</span>
-            <span class="sky-conditions">Mostly cloudy</span>
-            <br />
-            <span class="atmosphere">Humidity: 44%| Wind: 16km/h</span>
-          </p>
-        </div>
+          <div>
+            <h1>Kadoma</h1>
+            <p>
+              <span class="time"> Tuesday 11:34</span>
+              <span class="sky-conditions">Mostly cloudy</span>
+              <br />
+              <span class="atmosphere">Humidity: 44%| Wind: 17km/h</span>
+            </p>
+          </div>
 
-        <div class="temperature">
-          <span class="icon">⛅️</span>
-          <span class="value">18</span>
-          <span class="unit">˚C</span>
+          <div class="temperature">
+            <div class="icon">⛅️</div>
+            <div class="value">20</div>
+            <div class="unit">&deg;C</div>
+          </div>
         </div>
       </main>
       <footer>
-        This project was coded by
-        <a href="http://" target="_blank">Maria Kapatwa</a> and is
-        <a href="http://" target="_blank">open-sourced on Github</a> and
-        <a href="http://" target="_blank">hosted on Netlify.</a>
+        <p>
+          This project was coded by
+          <a href="http://" target="_blank">Maria Kapatwa</a> and is
+          <a href="http://" target="_blank">open-sourced on Github</a> and
+          <a href="http://" target="_blank">hosted on Netlify.</a>
+        </p>
       </footer>
     </div>
   </body>
