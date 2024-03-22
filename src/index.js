@@ -34,6 +34,9 @@ function displayTime(now) {
     minutes = "0" + minutes;
   }
   let hours = now.getHours();
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
 
   let days = [
     "Sunday",
